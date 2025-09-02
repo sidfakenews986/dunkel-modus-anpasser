@@ -8,7 +8,9 @@ function toggleDarkMode() {
 
 toggleButton.addEventListener('click', toggleDarkMode);
 
-// Check if dark mode should be enabled
-if (localStorage.getItem('dark-mode') === 'enabled') {
-    document.body.classList.add('dark-mode');
-}
+// Check if dark mode should be enabled on window load
+window.addEventListener('load', () => {
+    if (localStorage.getItem('dark-mode') === 'enabled') {
+        document.body.classList.add('dark-mode');
+    }
+});
