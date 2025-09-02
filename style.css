@@ -6,7 +6,7 @@ body {
     transition: background-color 0.5s, color 0.5s;
 }
 
-dark-mode {
+.dark-mode {
     background-color: #333;
     color: #ffffff;
 }
