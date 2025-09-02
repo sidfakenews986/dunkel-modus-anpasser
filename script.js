@@ -2,7 +2,10 @@ const toggleButton = document.getElementById('toggle-button');
 
 function toggleDarkMode() {
     const isDarkMode = document.body.classList.toggle('dark-mode');
-    // Save user preference in local storage
+    saveUserPreference(isDarkMode);
+}
+
+function saveUserPreference(isDarkMode) {
     localStorage.setItem('dark-mode', isDarkMode ? 'enabled' : 'disabled');
 }
 
