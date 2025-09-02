@@ -20,3 +20,8 @@ dark-mode {
 .container:hover {
     transform: scale(1.05);
 }
+
+body.dark-mode {
+    background-color: #333;
+    color: #ffffff;
+}
