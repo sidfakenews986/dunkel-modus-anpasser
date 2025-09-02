@@ -1,0 +1,17 @@
+body {
+    line-height: 1.6;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+dark-mode {
+    background-color: #333;
+    color: #ffffff;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
